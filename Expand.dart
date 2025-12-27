@@ -11,24 +11,16 @@ class Myapp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(title: const Text("Expanded Example")),
         body: Row(
-          children: [
+          children:[
             Container(
-              width: 80,
-              color: Colors.red,
+              Width:50,
+              color:Colors.red
             ),
-            Expanded(
-              child: Container(
-                color: Colors.green,
-                child: const Center(
-                  child: Text(
-                    "Expanded",
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ),
-              ),
-            ),
-          ],
-        ),
+            Container(
+              width:50,
+              color:Colors.blue
+            )
+          ]
       ),
     );
   }
